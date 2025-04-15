@@ -3,8 +3,6 @@ require('lazy').setup({
 
   require 'kickstart/plugins/blink',
 
-  require 'kickstart.plugins.catppuccin',
-
   require 'kickstart/plugins/conform',
 
   require 'kickstart/plugins/dap',
@@ -23,6 +21,8 @@ require('lazy').setup({
 
   require 'kickstart/plugins/oil',
 
+  --  require 'kickstart/plugins/peek',
+
   require 'kickstart/plugins/sleuth',
 
   require 'kickstart/plugins/telescope',
@@ -34,6 +34,12 @@ require('lazy').setup({
   require 'kickstart/plugins/todo-comments',
 
   require 'kickstart/plugins/treesitter',
+
+  require 'kickstart/plugins/zen',
+
+  -- colors
+  require 'kickstart/plugins/kanagawa',
+  --  require 'kickstart.plugins.catppuccin',
 
   { import = 'custom.plugins' },
 }, {
